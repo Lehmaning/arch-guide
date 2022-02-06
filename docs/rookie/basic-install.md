@@ -105,6 +105,7 @@ station wlan0 scan # 扫描网络
 station wlan0 get-networks # 列出所有 wifi 网络
 station wlan0 connect wifi-name # 进行连接，注意这里无法输入中文。回车后输入密码即可
 exit # 连接成功后退出
+dhcpcd # 获取 ip
 ```
 
 ::: tip ℹ️ 提示
